@@ -5,17 +5,23 @@ body{
     background-color: rgb(227, 180, 36);
 }
 img{
-    width: 250px;
+    width: 270px;
 }
 #mainContainer{
     display: flex;
-    width: 70rem;
+    width: 40rem;
     margin: 100px;
-    background-color: aliceblue;
+    background-color: rgb(230, 240, 196);
     gap: 7%;
-    padding: 40px;
+    padding: 70px;
     box-shadow: 10px solid black;
+    margin-left: 300px;
 }
 h1{
     margin-bottom: 20px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5%;
 }

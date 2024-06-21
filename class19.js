@@ -1,5 +1,6 @@
 const users = [
     {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png",
       "id": 1,
       "name": "Leanne Graham",
       "username": "Bret",
@@ -23,6 +24,7 @@ const users = [
       }
     },
     {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png",
       "id": 2,
       "name": "Ervin Howell",
       "username": "Antonette",
@@ -46,6 +48,7 @@ const users = [
       }
     },
     {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png",
       "id": 3,
       "name": "Clementine Bauch",
       "username": "Samantha",
@@ -69,6 +72,7 @@ const users = [
       }
     },
     {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png",
       "id": 4,
       "name": "Patricia Lebsack",
       "username": "Karianne",
@@ -92,6 +96,7 @@ const users = [
       }
     },
     {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png",
       "id": 5,
       "name": "Chelsey Dietrich",
       "username": "Kamren",
@@ -115,6 +120,7 @@ const users = [
       }
     },
     {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png",
       "id": 6,
       "name": "Mrs. Dennis Schulist",
       "username": "Leopoldo_Corkery",
@@ -138,6 +144,7 @@ const users = [
       }
     },
     {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png",
       "id": 7,
       "name": "Kurtis Weissnat",
       "username": "Elwyn.Skiles",
@@ -161,6 +168,7 @@ const users = [
       }
     },
     {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png",
       "id": 8,
       "name": "Nicholas Runolfsdottir V",
       "username": "Maxime_Nienow",
@@ -175,6 +183,7 @@ const users = [
           "lng": "-120.7677"
         }
       },
+     
       "phone": "586.493.6943 x140",
       "website": "jacynthe.com",
       "company": {
@@ -184,6 +193,7 @@ const users = [
       }
     },
     {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png",
       "id": 9,
       "name": "Glenna Reichert",
       "username": "Delphine",
@@ -198,6 +208,7 @@ const users = [
           "lng": "-168.8889"
         }
       },
+     
       "phone": "(775)976-6794 x41206",
       "website": "conrad.com",
       "company": {
@@ -207,6 +218,7 @@ const users = [
       }
     },
     {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png",
       "id": 10,
       "name": "Clementina DuBuque",
       "username": "Moriah.Stanton",
@@ -221,6 +233,7 @@ const users = [
           "lng": "57.2232"
         }
       },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png",
       "phone": "024-648-3804",
       "website": "ambrose.net",
       "company": {
@@ -252,9 +265,9 @@ fetch("https://jsonplaceholder.typicode.com/users")
             productCard.innerHTML = `
                
     <div id="mainContainer">
-    <div><img src="image_url" alt="img"></div>
+    <div><img src="${image_url}" alt="img"></div>
 
-    <div>
+    <div class="information">
         <h1>${name}</h1>
         <h3>${id}</h3>
         <h3>Email:</h3> <h4>${email}</h4>
